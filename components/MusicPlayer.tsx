@@ -1014,7 +1014,7 @@ const [infoModalError, setInfoModalError] = useState<string | null>(null);
   );
 
   const coverNodeLarge = (
-    <div className="w-56 h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-xl transition-transform duration-1000">
+    <div className="w-56 h-56 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-xl transition-transform duration-1000">
       {coverUrl ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={coverUrl} alt="cover" className="w-full h-full object-contain bg-slate-900/10" />
@@ -1279,8 +1279,8 @@ const [infoModalError, setInfoModalError] = useState<string | null>(null);
           </div>
 
           {/* 播放器内容 */}
-          <div className="flex-1 flex items-center justify-center p-4 md:p-6">
-            <div className="flex flex-col items-center w-full max-w-4xl h-full">
+          <div className="flex-1 overflow-y-auto custom-scrollbar p-4 md:p-6">
+            <div className="flex flex-col items-center w-full max-w-4xl min-h-full justify-center">
               <div className="flex-1 w-full flex flex-col items-center min-h-0">
                 {!lyricsExpanded && (
                   <div className="flex items-center justify-center w-full mt-2 md:mt-0 mb-4 md:mb-6">
