@@ -1,6 +1,6 @@
 # 🎵 Arc-music
 
-一个基于Nextjs的网页本地音乐播放器，提供流畅的音乐播放体验。
+一个基于Nextjs的网页本地音乐播放器，提供流畅的音乐播放体验。（lite分支为调用gdstudio api版，可直接部署到vercel等平台使用）
 * pc端:
 ![k3jT5GMpn9HXntiFYYsZmgyEXnXv5iQ0.jpg](https://cdn.nodeimage.com/i/k3jT5GMpn9HXntiFYYsZmgyEXnXv5iQ0.jpg) 
 * 移动端
